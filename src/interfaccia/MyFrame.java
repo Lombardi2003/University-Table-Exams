@@ -43,7 +43,6 @@ public class MyFrame extends JFrame{
         } catch (UnsupportedLookAndFeelException e) {
             e.printStackTrace();
         }
-
         //setBackground(new Color(45, 45, 45));
 		setLocation(300,200);			//impostare dove appare la finestra, le coordinate
 		setSize(1000,400);				//impostare le dimensioni di questa finestra
@@ -200,7 +199,7 @@ public class MyFrame extends JFrame{
 				String x = filtro_testo.getText();
 				filtro_testo.setText("");
 				int scelta = filtro.getSelectedIndex();
-				dati.filtro(scelta,x);
+				dati.filtro(scelta,x.toUpperCase());
 			}            
 		});	
 		panel_sopra.add(filtro_button);		
@@ -408,7 +407,7 @@ public class MyFrame extends JFrame{
 		            } 
 		        }
 	    	}
-        }catch (Exception ex){
+        }catch (Exception ex) {
 	    	JOptionPane.showMessageDialog(null, ex);
 	    }
     }
