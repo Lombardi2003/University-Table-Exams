@@ -26,6 +26,8 @@ Il presente progetto si propone di descrivere e sviluppare una applicazione Java
  - Visualizzazione dati statistici
  - Stampa della tabella degli esami.
 
+---
+
 ### Gestione degli esami
 La gestione degli esami prevede la visualizzazione in forma tabellare delle prove d’esame sostenute dagli studenti. In particolare, ciascuna entry nella tabella deve avere le seguenti informazioni:
  - Nome e Cognome dello studente
@@ -42,4 +44,4 @@ Quando l’utente aggiunge l’esito di un esame all’interno della tabella, l�
 
 Un esame si dice semplice se il suo voto finale è determinato da un’unica prova. Diversamente un esame è composto se il voto finale è determinato dall’esito di almeno due prove intermedie. Più nel dettaglio, il voto finale di un esame composto è la media pesata dei voti inseriti per le prove intermedie che lo compongono. Quindi, in caso di scelta di inserimento di un esame composto, l’utente anziché inserire direttamente il voto finale, deve specificare di quante prove è composto ed il peso di ciascuna. Il peso deve essere visto come una percentuale e le prove intermedie non prevedono lodi.
 
-> *Per implementare questa caratteristica e le funzionalità collegate si suggerisce di utilizzare il polimorfismo in Java.*
+> **Per implementare questa caratteristica e le funzionalità collegate si suggerisce di utilizzare il polimorfismo in Java.**
