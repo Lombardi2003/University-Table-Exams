@@ -41,3 +41,5 @@ L’utente deve avere la possibilità di aggiungere, modificare e cancellare le 
 Quando l’utente aggiunge l’esito di un esame all’interno della tabella, l’applicazione deve proporre la scelta tra due diverse tipologie di esame. Semplice o Composto.
 
 Un esame si dice semplice se il suo voto finale è determinato da un’unica prova. Diversamente un esame è composto se il voto finale è determinato dall’esito di almeno due prove intermedie. Più nel dettaglio, il voto finale di un esame composto è la media pesata dei voti inseriti per le prove intermedie che lo compongono. Quindi, in caso di scelta di inserimento di un esame composto, l’utente anziché inserire direttamente il voto finale, deve specificare di quante prove è composto ed il peso di ciascuna. Il peso deve essere visto come una percentuale e le prove intermedie non prevedono lodi.
+
+> *Per implementare questa caratteristica e le funzionalità collegate si suggerisce di utilizzare il polimorfismo in Java.*
