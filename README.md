@@ -16,3 +16,28 @@ Il software deve essere accompagnato da pagine di **documentazione HTML** (ad es
 Nel seguito del testo, i paragrafi evidenziati in azzurro sono **facoltativi**, e servono per differenziare il voto.
 
 Lo svolgimento della parte **obbligatoria** contribuisce al voto per **25 punti**. Il contributo delle parti facoltative è riportato nelle rispettive descrizioni. Si noti che il **punteggio massimo** rimane comunque **30/30**.
+
+## Descrizione del progetto
+Questo progetto mira all’implementazione di uno strumento per la gestione statistica degli esami universitari. In particolare, ci si pone lo scopo di fornire ad un ipotetico docente un modo rapido ed intuitivo per raccogliere e gestire esami universitari di diverso tipo tenendo quindi sotto controllo le carriere accademiche degli studenti.
+
+Il presente progetto si propone di descrivere e sviluppare una applicazione Java che abbia le seguenti funzionalità (dettagliate nei paragrafi successivi):
+ - Gestione degli esami;
+ - Salvataggio e caricamento degli esami inseriti;
+ - Visualizzazione dati statistici
+ - Stampa della tabella degli esami.
+
+### Gestione degli esami
+La gestione degli esami prevede la visualizzazione in forma tabellare delle prove d’esame sostenute dagli studenti. In particolare, ciascuna entry nella tabella deve avere le seguenti informazioni:
+ - Nome e Cognome dello studente
+ - Nome dell’insegnamento
+ - Voto finale (nel range [18 -30])
+ - Lode (Sì/No)
+ - Numero crediti
+
+Ogni voce rappresenta quindi una prova d’esame di uno studente.
+
+L’utente deve avere la possibilità di aggiungere, modificare e cancellare le voci della tabella.
+
+Quando l’utente aggiunge l’esito di un esame all’interno della tabella, l’applicazione deve proporre la scelta tra due diverse tipologie di esame. Semplice o Composto.
+
+Un esame si dice semplice se il suo voto finale è determinato da un’unica prova. Diversamente un esame è composto se il voto finale è determinato dall’esito di almeno due prove intermedie. Più nel dettaglio, il voto finale di un esame composto è la media pesata dei voti inseriti per le prove intermedie che lo compongono. Quindi, in caso di scelta di inserimento di un esame composto, l’utente anziché inserire direttamente il voto finale, deve specificare di quante prove è composto ed il peso di ciascuna. Il peso deve essere visto come una percentuale e le prove intermedie non prevedono lodi.
