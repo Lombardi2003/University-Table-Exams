@@ -54,4 +54,31 @@ A seconda del filtro scelto, il form contenente la tabella deve mostrare all’u
 
 Si predispongano appropriati controlli per garantire la correttezza dei dati inseriti. 
 
-<span style="color: red;">Facoltativo 2 punti</span>: opzionalmente, si cerchi di implementare l’opportuna strategia in grado di evitare situazioni in cui “Programmazione ad Oggetti” e “Programmazione Ad Oggetti” siano viste dal sistema come due insegnamenti separati.
+**{Facoltativo 2 punti}**: opzionalmente, si cerchi di implementare l’opportuna strategia in grado di evitare situazioni in cui “Programmazione **ad** Oggetti” e “Programmazione **Ad** Oggetti” siano viste dal sistema come due insegnamenti separati.
+
+---
+
+### Salvataggio e caricamento degli esami inseriti
+L’utente deve avere la possibilità di **salvare** la tabella su un file, specificandone il **nome**, e di **ricaricare** il file specificando il nome del file salvato in precedenza.
+
+**{Facoltativo 2 punti}**: nel caso in cui si tenti di salvare l’elenco degli esami in un file che esiste già, deve essere chiesto all’utente se desidera **sovrascrivere** il file esistente
+
+**{Facoltativo 5 punti}**: si implementi un meccanismo di **salvataggio automatico** basato su un thread che periodicamente salva le informazioni in un file temporaneo.
+
+**{Facoltativo 5 punti}**: il sistema deve tenere traccia del fatto che l’ultima modifica sulla tabella da parte dell’utente sia stata salvata o meno. In questo modo, intercettando l’evento di chiusura del frame principale il sistema può avvertire l’utente che vi sono modifiche non salvate e di conseguenza chiedere se operare o meno il salvataggio su disco
+
+---
+
+### Visualizzazione dati statistici
+L’utente deve avere la possibilità di visualizzare in un grafico le statistiche inerenti alle prove sostenute. Più nel dettaglio, una volta che l’utente ha scelto di filtrare per studente o per insegnamento, l’interfaccia grafica deve mostrare un pulsante che se premuto visualizza un istogramma di frequenze relativo ai voti.
+
+---
+
+### Stampa della tabella degli esami
+**{Facoltativo 1 punto}**: punto: Si dia all’utente la possibilità di **stampare** la tabella. Si sfruttino le classi di libreria Java per stampare tramite una delle stampanti configurate dal sistema operativo.
+
+---
+
+## Materiale utile
+ - Metodi *print()* di *JTable*. Interfaccia Java *java.awt.print.Printable* e classe Java *java.awt.print.PrinterJob* per stampare su stampante. Si consulti la documentazione e si possono trovare tutorial online.
+ - Suggerimenti di librerie esterne per la generazione di grafici: [https://www.jfree.org/jfreechart/](https://www.jfree.org/jfreechart/) [https://knowm.org/open-source/xchart/](https://knowm.org/open-source/xchart/); anche in questo caso, si consulti la loro documentazione o i tutorial disponibili online.
