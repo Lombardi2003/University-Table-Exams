@@ -54,4 +54,4 @@ A seconda del filtro scelto, il form contenente la tabella deve mostrare all’u
 
 Si predispongano appropriati controlli per garantire la correttezza dei dati inseriti. 
 
-[Facoltativo 2 punti: opzionalmente, si cerchi di implementare l’opportuna strategia in grado di evitare situazioni in cui “Programmazione ad Oggetti” e “Programmazione Ad Oggetti” siano viste dal sistema come due insegnamenti separati].
+<span style="color: red;">Facoltativo 2 punti</span>: opzionalmente, si cerchi di implementare l’opportuna strategia in grado di evitare situazioni in cui “Programmazione ad Oggetti” e “Programmazione Ad Oggetti” siano viste dal sistema come due insegnamenti separati.
