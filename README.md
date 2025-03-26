@@ -84,5 +84,8 @@ L’utente deve avere la possibilità di visualizzare in un grafico le statistic
  - 📊 Suggerimenti di librerie esterne per la generazione di grafici: [https://www.jfree.org/jfreechart/](https://www.jfree.org/jfreechart/) [https://knowm.org/open-source/xchart/](https://knowm.org/open-source/xchart/); anche in questo caso, si consulti la loro documentazione o i tutorial disponibili online.
 
 ---
+## Risultato finale
+![risultato](Immagine.png)
 
+---
 Spero che questa mia soluzione possa esserti utile e rappresenti un'ottima base per approfondire le tue competenze di programmazione in Java. Buon lavoro e... Buon Coding! 🚀
