@@ -88,4 +88,4 @@ L’utente deve avere la possibilità di visualizzare in un grafico le statistic
 ![risultato](Immagine.png)
 
 ---
-Spero che questa mia soluzione possa esserti utile e rappresenti un'ottima base per approfondire le tue competenze di programmazione in Java. Buon lavoro e... Buon Coding! 🚀
+Spero che questa mia soluzione possa esserti utile e rappresenti un'ottima base per approfondire le tue competenze di programmazione in Java. Buon lavoro e ... Buon Coding! 🚀
